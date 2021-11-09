@@ -11,7 +11,7 @@ function solution(number){
         while(number >= rom[keyR]){
              output += keyR;
              number -= rom[keyR]
-             console.log(rom[keyR])
+            // console.log(rom[keyR])
         }
     }
     
